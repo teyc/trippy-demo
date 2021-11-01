@@ -1,10 +1,9 @@
 {
   "name": "@expo/trippy",
-  "version": "0.1.0",
+  "version": "43",
   "description": "A trippy full screen component",
   "author": null,
   "private": false,
-  "main": "main.js",
   "dependencies": {
     "@exponent/vector-icons": "~4.0.0",
     "exponent": "^14.0.0",
