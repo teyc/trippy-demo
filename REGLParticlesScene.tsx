@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import { GLView }  from 'exponent';
+import { GLView }  from 'expo-gl';
 
 import REGL from 'regl';
 import mat4 from 'gl-mat4';
@@ -27,7 +27,7 @@ export default class BasicScene extends React.Component {
     );
   }
 
-  _onContextCreate = (gl) => {
+  _onContextCreate = (gl: any) => {
     const regl = REGL({ gl });
 
     const pointBuffer = regl.buffer(
